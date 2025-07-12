@@ -86,8 +86,8 @@ test:
 production:
   primary: &primary_production
     <<: *default
-    database: helpdesk_production
-    username: helpdesk
+    database: <%= ENV["HELPDESK_DATABASE"] %>
+    username: <%= ENV["HELPDESK_DATABASE_USER"] %>
     password: <%= ENV["HELPDESK_DATABASE_PASSWORD"] %>
   cache:
     <<: *primary_production
