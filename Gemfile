@@ -51,3 +51,5 @@ gem "devise", "~> 4.9"
 gem "devise-api", "~> 0.2.0"
 
 gem "pundit", "~> 2.5"
+
+gem "rspec-rails", "~> 8.0"
