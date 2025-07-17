@@ -55,3 +55,7 @@ gem "devise-api", "~> 0.2.0"
 gem "pundit", "~> 2.5"
 
 gem "rspec-rails", "~> 8.0"
+
+gem "service_actor", "~> 4.0"
+
+gem "service_actor-rails", "~> 1.0"
