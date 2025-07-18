@@ -59,3 +59,5 @@ gem "rspec-rails", "~> 8.0"
 gem "service_actor", "~> 4.0"
 
 gem "service_actor-rails", "~> 1.0"
+
+gem "letter_opener", group: :development
