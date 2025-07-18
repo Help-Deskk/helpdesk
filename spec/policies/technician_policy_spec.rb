@@ -6,7 +6,13 @@ RSpec.describe TechnicianPolicy, type: :policy do
   subject { described_class }
 
   permissions ".scope" do
-    pending "add some examples to (or delete) #{__FILE__}"
+    pending "includes all technicians records for users admin"
+    pending "excludes technician records for users technician"
+    pending "excludes technician records for users customer"
+  end
+
+  permissions :index? do
+    pending "authorize users admin to get technicians records"
   end
 
   permissions :show? do
