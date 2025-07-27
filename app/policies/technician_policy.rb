@@ -11,7 +11,9 @@ class TechnicianPolicy < ApplicationPolicy
     end
 
     def resolve
-      scope.technician
+       return scope.technician if user.admin?
+
+       scope.none
     end
 
     private
