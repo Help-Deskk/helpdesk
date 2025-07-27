@@ -82,6 +82,7 @@ test:
 # for a full overview on how database connection configuration can be specified.
 #
 production:
+  host: <%= ENV["DB_HOST"] %>
   primary: &primary_production
     <<: *default
     database: <%= ENV["HELPDESK_DATABASE"] %>
