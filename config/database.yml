@@ -82,9 +82,9 @@ test:
 # for a full overview on how database connection configuration can be specified.
 #
 production:
-  host: <%= ENV["DB_HOST"] %>
   primary: &primary_production
     <<: *default
+    host: <%= ENV["DB_HOST"] %>
     database: <%= ENV["HELPDESK_DATABASE"] %>
     username: <%= ENV["HELPDESK_DATABASE_USER"] %>
     password: <%= ENV["HELPDESK_DATABASE_PASSWORD"] %>
