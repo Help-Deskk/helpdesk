@@ -46,6 +46,8 @@ group :development, :test do
   gem "rubocop-rails-omakase", require: false
 
   gem "pundit-matchers"
+
+  gem 'shoulda-matchers', '~> 6.0'
 end
 
 gem "devise", "~> 4.9"
