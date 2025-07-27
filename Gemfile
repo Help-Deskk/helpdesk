@@ -48,6 +48,8 @@ group :development, :test do
   gem "pundit-matchers"
 
   gem "shoulda-matchers", "~> 6.0"
+
+  gem "factory_bot_rails", "~> 6.5"
 end
 
 gem "devise", "~> 4.9"
