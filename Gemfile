@@ -47,7 +47,7 @@ group :development, :test do
 
   gem "pundit-matchers"
 
-  gem 'shoulda-matchers', '~> 6.0'
+  gem "shoulda-matchers", "~> 6.0"
 end
 
 gem "devise", "~> 4.9"
